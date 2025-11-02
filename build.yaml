@@ -13,6 +13,8 @@
 #     shield: reviung41
 #   - board: nice_nano_v2
 #     shield: corne_left
+#   - board: nice_nano_v2
+#     shield: settings_reset
 #     snippet: studio-rpc-usb-uart
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
@@ -23,3 +25,5 @@ include:
     shield: sofle_left
   - board: nice_nano_v2
     shield: sofle_right
+  - board: nice_nano_v2
+    shield: settings_reset
